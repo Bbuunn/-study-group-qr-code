@@ -1,0 +1,69 @@
+/* Bunny's First CSS File */
+/* get rid of body margin */
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(212, 45%, 89%);
+}
+
+/* 
+* {
+    border: 1px solid red;
+} */
+
+.qr-code {
+min-width: 32px;
+max-width: 300px;
+/* 20vw */
+background-color:#fff;
+padding: 1rem;
+border-radius: 1rem;
+box-shadow: 0px 0px 100px hsl(220, 15%, 55%, .5);
+/* rgba */
+}
+
+/* div.qr-code img {
+    width: 100%;
+} */
+
+img {
+    max-width: 100%;
+    /* What does above do? */
+    
+    border-radius: 1rem;
+}
+
+.qr-code p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+p.leader {
+    text-shadow: 2px 2px 1px hsl(212, 45%, 89%);
+    font-weight: 700;
+}
+
+p.details {
+    padding: 0 20px;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 400;
+}
+
+
+/*
+TODO
+1. Drop shadow (rainbow?)
+2. Center container - Flexbox
+3. (Vertically rotating image)
+4. Emmet
+*/
